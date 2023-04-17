@@ -1,2 +1,2 @@
 # ShoesWorld
-shoe sales website
+shoes sales website
