@@ -1,0 +1,1 @@
+/* Arquivos das automações do Menu Hamnurger */
