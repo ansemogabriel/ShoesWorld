@@ -1,1 +1,1 @@
-/* Arquivos das automações do Menu Hamnurger */
+/* Arquivos das automações do Menu Hamburger */
