@@ -5,27 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <title>..:: Shoes World ::..</title>
 </head>
 <body>
     <!-- Aula 24/04/2023 - HTML -->
+    <!-- inicio menu reponsivo -->
     <header id="header">
-    <a id="logo" href="index.html"><img src="./img/logo.png" alt="Logo Shoes World"></a>
+        <a id="logo" href="index.html"><img src="./img/logo.png" alt="Logo Shoes World"></a>
         <nav id="nav">
-        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-            <span id="hamburger"></span>
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="index.html">Home</a></li>
+                <li><a class="linkMenu" href="produtos.html">Produtos</a></li>
+                <li><a class="linkMenu" href="streaming.html">Streaming</a></li>
+                <li><a class="linkMenu" href="contato.html">Contato</a></li>
+                    <!-- atalho para copiar conteudo > Alt + Shift + Seta para baixo -->    
+            </ul>   
+        </nav>
+    </header>
+    <!-- fim menu reponsivo -->
+    <!-- inicio carousel pagina principal -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1200">
+                <img 
+                src="./img/carroseul1.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="1800">
+                <img 
+                src="./img/carroseul2.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="1800">
+                <img 
+                src="./img/carroseul3.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="1800">
+                <img 
+                src="./img/carroseul4.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="1800">
+                <img 
+                src="./img/carroseul5.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+        </div>
+        <!-- fim imangens carousel -->
+        <!-- Inicio controle do carousel -->
+        <button 
+            class="carousel-control-prev"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
-        <ul id="menu" role="menu">
-            <li><a class="linkMenu" href="index.html">Home</a></li>
-            <li><a class="linkMenu" href="produtos.html">Produtos</a></li>
-            <li><a class="linkMenu" href="streaming.html">Streaming</a></li>
-            <li><a class="linkMenu" href="contato.html">Contato</a></li>
-                <!-- atalho para copiar conteudo > Alt + Shift + Seta para baixo -->    
-        </ul>   
+        <button 
+            class="carousel-control-next"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- fim do carousel pagina pagina principal -->
 
-   </nav>
-
-
-  </header>
 </body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
 </html>
