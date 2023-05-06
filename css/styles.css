@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Kanit)
+@import url(https://fonts.googleapis.com/css2?family=Kanit);
 /* Arquivos responsavel pelo estilos */
 /* Aula 24/04/2023 - Estilos do Menu */
 body,ul {
@@ -51,6 +51,7 @@ transition: 0.3s;
 #btn-mobile {
     display: none;
 }
+/*
 #carouselExampleInterval {
     position: relative;
     z-index: 10;
@@ -61,14 +62,14 @@ transition: 0.3s;
     height: 500px;
     width: auto;
 }
-
+*/
 /* CSS estilos banner */
 .section-banner-home {
     width: 100%;
     height: 500px;
     margin-top: 10px;
-    padding: 50px;
-    background-color: #aeb0b3;
+    padding: 4px 4px;
+    background-color: #e7e7e7;
 }
 .section-banner-home img {
     height: 400px;
@@ -77,16 +78,19 @@ transition: 0.3s;
 .section-banner-home .texto-banner {
     margin-top: 30px;
     font-size: 22px;
+    font-family: 'Kanit';
 }
 .section-banner-home .texto-banner h1 {
     font-size: 30px;
     width: 60%;
     font-weight: 500;
     padding-bottom: 20px;
+    font-family: 'Kanit';
 }
 .section-banner-home .texto-banner p {
     font-size: 15px;
     margin-bottom: 20px;
+    font-family: 'Kanit';
 }
 .section-banner-home .texto-banner a {
     color: rgb(0, 0, 0);
@@ -104,12 +108,14 @@ transition: 0.3s;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    font-family: 'Kanit';
 }
     .destaque p {
         width: 77%;
         text-align: center;
         font-size: 14px;
         margin: 30px auto;
+        font-family: 'Kanit';
     }
     .destaque figcaption {
         font-size: 13px;
@@ -117,6 +123,7 @@ transition: 0.3s;
         text-decoration: none;
         font-weight: bold;
         text-align: center;
+        font-family: 'Kanit';
     }
     .destaque a {
         justify-content: center;
@@ -126,13 +133,16 @@ transition: 0.3s;
         font-size: 18px;
         font-weight: bold;
         margin: 30px 0;
+        font-family: 'Kanit';
     }
     .destaque a:hover {
         color: #ff0000;
         font-size: 20px;
         transition: 0.3s;
         text-shadow: 4px 4px 6px #0000007a;
+        font-family: 'Kanit';
     }
     .destaque img {
         height: 220px;
+        font-family: 'Kanit';
     }
