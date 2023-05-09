@@ -10,8 +10,8 @@ body,ul {
     text-decoration: none;
     font-family: 'Kanit';
     font-size: 1.25em;
-text-transform: uppercase;
-transition: 0.3s;
+    text-transform: uppercase;
+    transition: 0.3s;
 }
 
 #menu a:hover {
@@ -74,6 +74,8 @@ transition: 0.3s;
 .section-banner-home img {
     height: 400px;
     width: auto; 
+    margin-left: 180px;
+    box-shadow: 4px 4px 6px #0000007a;
 }
 .section-banner-home .texto-banner {
     margin-top: 30px;
@@ -146,3 +148,53 @@ transition: 0.3s;
         height: 220px;
         font-family: 'Kanit';
     }
+    /* /*fim css destaques */
+  
+    /* incio css novidades */
+
+    .novidades .text-body {
+        width: 80%;
+        margin: 70px auto;
+    }
+
+    .novidades h2 {
+        color: #000;
+    
+    }
+    .novidades p {
+        color: rgb(0, 0, 0);
+    }
+
+    .novidades a {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        text-decoration-color: rgb(0, 0, 0);
+        padding: 6px 12px;
+        background-color: rgb(184, 186, 190);
+        font-weight: 400;
+    }
+    /* Fim CSS novidades */
+    /* Inico CSS galeria */
+
+    .galeria {
+        margin: 60px auto 20px;
+    }
+    
+    .galeria h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .galeria p {
+        text-align: center;
+        width: 50%;
+        margin: 14px auto 50px;
+        height: 200px;
+    }
+
+    .galeria .gallery {
+        width: 30%;
+        margin: 14px auto 50px;
+        height: 200px;
+    }
+    
