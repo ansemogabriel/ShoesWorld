@@ -270,6 +270,19 @@ body,ul {
         margin: 14px auto 50px;
         height: 200px;
     }
+    .galeria .gallery img {
+        width: auto;
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+        height: auto;
+        display: block;
+    }
+     .galeria .gallery img:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.3);
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.05);
+    }
+    
     /* fim CSS galeria */
     /* inicio CSS footer */
 
@@ -277,7 +290,14 @@ body,ul {
     padding: 50px 50px;
 }
 .rodape .container img {
-    height: 200px;
+    height: 50%;
+    width: 50%;
+    padding-left: 5px;
+    transition: transform .2s;
+}
+.rodape .container img:hover {
+    transform: scale(1.5);
+
 }
 .rodape .info-contato p {
         margin: 0;
