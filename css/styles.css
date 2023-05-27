@@ -383,30 +383,37 @@ body,ul {
     margin-bottom: 15px;
     text-transform: uppercase;
 }
-.heading {
+.text-left {
     border-bottom: 1px solid #fcab0e;
     padding-bottom: 9px;
     position: relative;
 }
-.heading span {
+.text-left span {
     background: #9e6600 none repeat scroll 0 0;
     bottom: -2px;
     height: 3px;
     left: 0;
     position: absolute;
-    width: 75px;
+    width: 130px;
 }
-.form {
-    border-radius: 7px;
+.form-horizontal {
+    border-radius: 107px;
     padding: 6px;
 }
-.txt[type="text"] {
+.form-control[type="text"] {
     border: 1px solid #ccc;
     margin: 10px 0;
     padding: 10px 0 10px 5px;
     width: 100%;
 }
-.txt_3[type="text"] {
+.form-control[type="email"] {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+
+.form-control-msg[type="text"] {
     margin: 10px 0 0;
     padding: 10px 0 10px 5px;
     width: 100%;
@@ -441,6 +448,13 @@ body,ul {
     transition: all 0.5s ease 0s;
 }
 /* fim CSS contato */
-
 /* inicio css mapa */
-.
+.map{
+    width: 100%;
+    height: 300px;
+}
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+/* Fim CSS Mapa */
