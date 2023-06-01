@@ -33,7 +33,7 @@ body,ul {
 }
 #header {
     width: 100%;
-    position: fixed;
+    position: relative;
     z-index: 90;
     box-sizing: border-box;
     height: 75px;
@@ -372,6 +372,9 @@ body,ul {
  
 /* Início CSS contato */
 
+.contato {
+    margin-top: 50px;
+}
 .form_main {
     width: 100%;
 }
@@ -380,16 +383,21 @@ body,ul {
     font-size: 20px;
     font-weight: 300;
     margin-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     text-transform: uppercase;
 }
 .text-left {
-    border-bottom: 1px solid #fcab0e;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 9px;
+    position: relative;
+}
+.text-local {
+    border-bottom: 1px solid #000000;
     padding-bottom: 9px;
     position: relative;
 }
 .text-left span {
-    background: #9e6600 none repeat scroll 0 0;
+    background: #888888 none repeat scroll 0 0;
     bottom: -2px;
     height: 3px;
     left: 0;
