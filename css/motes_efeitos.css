@@ -1,31 +1,20 @@
-/* efeitos pulse */
-.whatsapp .pulse {
-        animation: pulse 0.7s infinite;
-    margin: 0 auto;
-    display: table;
-    margin-top: 50px;
-    animation-direction: alternate;
-    -webkit-animation-name: pulse;
-    animation-name: pulse;
-}
-@-webkit-keyframes pulse {
-    0% {
-        -webkit-transform: scale(1);
-        -webkit-filter: brightness(100%);
-    }
-    100% {
-        -webkit-transform: scale(1.1);
-        -webkit-filter: brightness(120%);
-    }
-}
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        filter: brightness(100%);
-    }
-    100% {
-        transform: scale(1.1);
-        filter: brightness(120%);
-    } */
-/* fim efeito pulse */
 
+/* Efeito icones pulando */
+.whatsapp .pulando {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    animation: pulando .4s cubic-bezier(.53, -0.03, .67, 1.06);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes pulando {
+     0% {
+        transform: translateY(0px);
+     }
+     100% {
+        transform: translateY(100%);
+        width: 70px;
+        height: 40px;
+     }
+}

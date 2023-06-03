@@ -289,11 +289,11 @@ body,ul {
 .rodape {
     padding: 50px 50px;
 }
-.rodape .container img {
+.rodape .container #img-logo {
     height: 50%;
     width: 50%;
-    padding-left: 5px;
-    transition: transform .2s;
+    padding-left: 10px;
+    transition: transform .3s;
 }
 .rodape .container img:hover {
     transform: scale(1.5);
@@ -391,9 +391,10 @@ body,ul {
     padding-bottom: 9px;
     position: relative;
 }
-.text-local {
+#text-local {
     border-bottom: 1px solid #000000;
-    padding-bottom: 9px;
+    margin0,
+    -bottom: 9px;
     position: relative;
 }
 .text-left span {
@@ -477,23 +478,37 @@ body,ul {
 .whatsapp img {
     height: 60px;
 }
-.whatsapp .pulando {
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    animation: pulando .4s cubic-bezier(.53, -0.03, .67, 1.06);
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+
+/* efeitos pulse */
+.whatsapp .pulse {
+    animation: pulse 0.7s infinite;
+margin: 0 auto;
+display: table;
+margin-top: 50px;
+animation-direction: alternate;
+-webkit-animation-name: pulse;
+animation-name: pulse;
 }
-@keyframes pulando {
-     0% {
-        transform: translateY(0px);
-     }
-     100% {
-        transform: translateY(100%);
-        width: 70px;
-        height: 40px;
-     }
+@-webkit-keyframes pulse {
+0% {
+    -webkit-transform: scale(1);
+    -webkit-filter: brightness(100%);
 }
+100% {
+    -webkit-transform: scale(1.1);
+    -webkit-filter: brightness(110%);
+}
+}
+@keyframes pulse {
+0% {
+    transform: scale(1);
+    filter: brightness(100%);
+}
+100% {
+    transform: scale(1.1);
+    filter: brightness(110%);
+} */
+/* fim efeito pulse */
+
 
 /* fim whatsapp */
