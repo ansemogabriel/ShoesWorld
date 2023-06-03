@@ -294,6 +294,7 @@ body,ul {
     width: 50%;
     padding-left: 10px;
     transition: transform .3s;
+    display: block;
 }
 .rodape .container img:hover {
     transform: scale(1.5);
@@ -393,8 +394,7 @@ body,ul {
 }
 #text-local {
     border-bottom: 1px solid #000000;
-    margin0,
-    -bottom: 9px;
+    margin0-bottom: 9px;
     position: relative;
 }
 .text-left span {
